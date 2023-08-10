@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 200px;
+}
+
+.main-container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container header nav .logo {
+  width: 100%;
+  transition: .2s ease;
+  
+  :hover {
+    transform: scale(1.2);
+  }
+}
+
+.main-container header nav .logo a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 50px;
+}
+
+.main-container header nav .logo a .logoFirst {
+  color: #E2DE84;
+}
+
+.main-container header nav .logo a .logoLast {
+  color: #626267;
+}
+
+.main-container header nav .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-container header nav .menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.main-container header nav .menu ul li {
+  color: #fff;
+  padding: 16px 26px;
+  margin: 0 10px;
+  font-size: 26px;
+  curosr: pointer;
+  transition: .2s ease;
+}
+
+.main-container header nav .menu ul li:hover {
+  background: #fff;
+  color: #000;
+  transition: .2s ease;
+}
+
+.main-container header nav .menu .call {
+  margin-left: 20px;
+}
+
+.main-container header nav .menu .call button {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background: none;
+  padding: 16px 26px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 16px rgba(0,0,0,.5);
+  transition: .5s ease-in-out; 
+}
+
+.main-container header nav .menu .call button:hover {
+  background: #fff;
+  border: none;
+  color: #000;
+  box-shadow: none;
+  transition: .5s ease-in-out;
+}
+
+.container section {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #353238;
+}
